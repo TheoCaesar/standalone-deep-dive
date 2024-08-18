@@ -7,12 +7,10 @@ import { DetailsComponent } from './welcome/details/details.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, WelcomeComponent, 
-    // DetailsComponent
+  declarations: [AppComponent,
   ],
   imports: [BrowserModule, 
-    // SharedModule,
-    DetailsComponent
+    WelcomeComponent
   ],
   providers: [],
   bootstrap: [AppComponent],
